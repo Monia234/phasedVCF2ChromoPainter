@@ -81,7 +81,7 @@ int main (int argc, char *argv[]) {
 
    cout<<(2*indCounter)<<endl;
    cout<<pos.size()<<endl;
-   cout<<"P "<<vectorToString(pos," ")<<"#"<<endl;
+   cout<<"P "<<vectorToString(pos," ")<<""<<endl;
    for(unsigned int i=0;i<(2*indCounter);i++){
        cout<<sequences->at(i)<<endl;
    }
